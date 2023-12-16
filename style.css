@@ -1,13 +1,18 @@
 /* nav bar*/
-
+body{
+    background-color: rgb(204,204,255);
+}
 .pretty {
     color: red;
 }
 
   .eb{
-    align-self: flex-start;
-    display: inline-block;
-  }
+    margin-right: auto;
+}  
+.spacer{
+    width :75%;
+    height:0px;
+}
 .nav{
     display: flex;
    list-style: none;
@@ -23,4 +28,5 @@
         display: flex;
         border: 1px solid red ;
         align-self: flex-end;
+        margin-left: auto;
 }
