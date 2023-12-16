@@ -1,0 +1,26 @@
+/* nav bar*/
+
+.pretty {
+    color: red;
+}
+
+  .eb{
+    align-self: flex-start;
+    display: inline-block;
+  }
+.nav{
+    display: flex;
+   list-style: none;
+    padding: none;
+    flex-direction: row;
+    justify-content: space-around;
+    width:95%;
+    gap: 5%;
+
+}
+
+.navSLUpIn{
+        display: flex;
+        border: 1px solid red ;
+        align-self: flex-end;
+}
