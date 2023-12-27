@@ -1,11 +1,12 @@
 /* nav bar*/
 body{
     font-family: 'Oxygen', sans-serif;
-    background-color: rgb(59,173,252);
+    /*background-color: rgb(59,173,252);*/
+    background-color: rgb(0,180,216) ;
 }
 
 .pretty {
-    color: orangered;
+    color: rgb(29, 116, 230);
 }
 
   .eb{
@@ -21,7 +22,7 @@ body{
    list-style: none;
     padding: none;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-evenly;
     width:100%;
     border-radius: 30px;
     background-color: rgb(204,204,255);
@@ -30,7 +31,7 @@ body{
 
 .navSLUpIn{
         display: flex;
-        border: 2px solid orange ;
+        border: 2px solid rgb(29, 141, 233) ;
         align-self: flex-end;
         margin-left: auto;
         padding: 5px;
@@ -38,10 +39,12 @@ body{
         background-color: gray;
         color:white;
 }
+
 .title{
     text-align: center;
     font-size: 2.8rem ;
     color: purple;
+    font-family: 'Unbounded', sans-serif;
 }
 
 .firstImage{
@@ -50,3 +53,32 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.imgBorder{
+    border: 5px; 
+    border-style: dashed;
+    color: purple;
+}
+
+.iconLines{
+    position: absolute;
+    width: 13%;
+    top: 5%;
+    right:.5%;
+   margin: 5px;
+}
+
+.firstLine{
+    text-align: center;
+    font-family: 'Oxyen'; 
+    margin: 50px;
+    font-size: 1.8rem;
+    border: 3px solid rgb(116, 46, 182);
+    border-width: thick;
+    border-radius: 100px;
+    width:auto;
+   margin-right: 400px;
+   margin-left: 400px;
+   background-color: rgb(198, 161, 207);
+}
+
